@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <input type="radio" name = "radio" id = "open">
+    <input type="radio" name = "radio" id = "close" checked>
+    <!-- nav -->
+    <nav>
+      <div class="left-side">
+        <a href=""><h1>Tegar Wisnu</h1></a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="#home" class = "page-scroll">Home</a></div>
+        <div class="nav-link-wrapper"><a href="#about" class = "page-scroll">About</a></div>
+        <div class="nav-link-wrapper"><a href="#certificates" class = "page-scroll">certificates</a></div>
+        <div class="nav-link-wrapper"><a href="#contact" class = "page-scroll">Contact</a></div>
+        <div class="nav-link-wrapper"><a href="https://techgarwis.blogspot.com/" target="_blank" class = "page-scroll">Blog</a></div>
+      </div>
+      <label for = "open" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for="close" class = "cross">
+        <span></span>
+        <span></span>
+      </label>
+    </nav>
+
+    <li><a href="https://techgarwis.blogspot.com/" target="_blank">Blog</a></li>
+
+    <!-- home -->
+    <div class="container-home" id = "home">
+      <img src="img/profile.png" alt="">
+      <h1>Tegar Wisnukurnia Aji</h1>
+      <p>Junior Web Developer | Networking</p>
+    </div>
+
+    <!-- about -->
+    <div class="container-about" id = "about">
+      <h1>About</h1>
+      <hr class="split">
+      <div class="text">
+        <p>Hi! Saya Tegar, Saya suka mempelajari hal baru, terutama dibidang teknologi. Saat ini saya merupakan mahasiswa Universitas Singaperbangsa Karawang prodi Informatika. </p>
+        <p>Saya ingin untuk terus berkembang dan lebih meningkatkan kemampuan IT saya. Sejak kecil saya diajarkan untuk menjadi seseorang yang pekerja keras. Saya akan melakukan yang terbaik untuk pekerjaan saya.</p>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div class="container-social">
+      <h1></h1>
+        <a href="https://www.instagram.com/tgar_wis/" target="_blank"><img src="img/instagram.png" alt=""></a>
+        <a href="https://github.com/tgarwis" target="_blank"><img src="img/github.png" alt=""></a>
+        <a href="https://api.whatsapp.com/send/?phone=6285156521791&text&app_absent=0" target="_blank"><img src="img/whatsapp.png" alt=""></a>
+        <a href="https://t.me/tgar_wis"  target="_blank"><img src="img/telegram.png" alt=""></a>
+    </div>
+
+    <!-- certificates -->
+    <div class="container-certificates" id = "certificates">
+      <h1>Certificate</h1>
+      <hr class="split">
+      <div class="cards">       
+          <div class="card">
+            <img src="img/gambar1.png" alt="">
+            <p>HTML & CSS</p>
+          </div>
+               
+          <div class="card">
+            <img src="img/gambar2.png" alt="">
+            <p>Networking</p>
+          </div>
+               
+          <div class="card">
+            <img src="img/gambar3.png" alt="">
+            <p>Python</p>
+          </div>
+       
+          <div class="card">
+            <img src="img/gambar4.png" alt="">
+            <p>Javascript</p>
+          </div>
+      </div>
+    </div> 
+        
+    <!-- contact -->
+    <div class="container-contact" id = "contact">
+      <h1>Contact</h1>
+      <hr class="split">
+
+      <form action="" method = "post">
+
+        <label for="">Name</label>
+        <input type="text" placeholder = "Tegar Wisnu">
+
+        <label for="">Phone Number</label>
+        <input type="text" placeholder = "0813********">
+
+        <label for="">Email</label>
+        <input type="text" placeholder = "example@gmail.com">
+
+        <label for="">Message</label>
+        <textarea rows="8" cols="80" placeholder = "Message"></textarea>
+
+        <button type = "submit">Confirm</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Copyright 2022 | Built by Tegar Wisnu</p>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src = "script.js"> </script>
+  </body>
+</html>
